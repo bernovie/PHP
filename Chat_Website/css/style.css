@@ -1,0 +1,220 @@
+body{
+	background-color: #092327;
+}
+
+@media screen and (max-width: 414px) {
+  /* CSS for screens that are 320 pixels or less will be put in this section */
+  .button{
+	background-color: #A4C2A8;
+	font-size: 160%;
+    }
+
+    .text_input{
+	background-color: #F9F7F7;
+	font-size: 160%;
+    }
+
+}
+
+@media screen and (min-width:415px) {
+
+.button{
+	background-color: #A4C2A8;
+	font-size: 250%;
+}
+
+.text_input{
+	background-color: #F9F7F7;
+	font-size: 200%;
+	border-radius: 5px;
+	border: 1px solid #D1CEC8;
+}
+
+}
+
+.title, .notification_title{
+  color: #00A9A5;
+  text-align: center;
+  font-family: "Avenir Next"; 
+  font-size: 320%;
+}
+.title a:link{
+  color: #00A9A5;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.title a:visited{
+  color: #00A9A5;
+  background-color: transparent;
+  text-decoration: none;
+}
+.title a:hover{
+  color: #00A9A5;;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+#login_signup{
+  background-color: #EFEBE6;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 500px;
+  border-radius: 5px;
+}
+
+#login_signup p, .notification_text p{
+  text-align: center;
+  font-size: 200%;
+  font-family: "Avenir Book";
+  padding-top: 1%;
+  "background-color: #D1CDC8;"
+}
+.input_div{
+  text-align: center;
+}
+
+#initial_form p{
+  background-color: #EFEBE6;
+  text-align: left;
+  font-family: "Avenir Heavy";
+  padding-top: 0%;
+  font-size: 100%;
+  display: inline;
+  margin-left: 24%;
+}
+
+#initial_buttons #or{
+  background-color: #EFEBE6;
+  text-align: center;
+  font-family: "Avenir Heavy";
+  padding-top: 0%;
+  font-size: 100%;
+  margin-top: 0%;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+#initial_buttons{
+  text-align: center;
+}
+
+.login_button {
+  margin-top: 2%;
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 10px;
+  width: 52.7%;
+  font-family: "Avenir Heavy", Helvetica;
+  color: #ffffff;
+  height: 30%;
+  border: 0px;
+  font-size: 20px;
+  background: #00A9A5;;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.login_button:hover {
+  background: #008C89;
+  text-decoration: none;
+}
+
+.signup_button {
+  margin-top: 2%;
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 10px;
+  width: 52.7%;
+  font-family: "Avenir Heavy", Helvetica;
+  color: #ffffff;
+  height: 30%;
+  border: 0px;
+  font-size: 20px;
+  background: #5CABE8;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.signup_button:hover {
+  background: #4E91C4;
+  text-decoration: none;
+}
+
+#initial_buttons hr{
+  margin-top: 5%;
+}
+
+.text-input {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 10px 20px;
+  border: 1px solid #D1CEC8;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font: normal 16px/normal Arial, Helvetica, sans-serif;
+  color: rgba(0,142,198,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: #F9F7F7;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.notification {
+  position: absolute;
+  opacity: 1;
+  top: 25%;
+  left: 30%;
+  width: 40%;
+  height: 50%;
+  background-color: #EFEBE6;
+  border-radius: 10px;
+  display: none;
+  z-index: 3;
+  border: thick solid gray;
+}
+
+.transparent_background{
+  background-color: #000000;
+  opacity: 0.4;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  top:0%;
+  left: 0%;
+  position: absolute;
+  display: none;
+}
+
+.notification_title{
+  color: #DB5959;
+  text-align: center;
+  font-family: "Avenir Next"; 
+  font-size: 320%;
+  margin: 0%;
+  padding: 3%;
+}
+
+.notification_text{
+  width: 100%;
+  height: 70.2%;
+  bottom: 0%;
+  left: 0%;
+  position: absolute;
+}
+
+.notification_text p{
+  text-align: center;
+  font-size: 230%;
+  font-family: "Avenir Book";
+  padding: 0%;
+}
+
+
+

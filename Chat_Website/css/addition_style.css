@@ -1,0 +1,50 @@
+body{
+	background-color: #2A2B2E;
+}
+
+@media screen and (max-width: 414px) {
+  /* CSS for screens that are 320 pixels or less will be put in this section */
+  .button{
+	background-color: #A4C2A8;
+	font-size: 160%;
+    }
+
+    .text_input{
+	background-color: #A4C2A8;
+	font-size: 160%;
+    }
+
+}
+@media screen and (min-width:415px) {
+
+.button{
+	background-color: #A4C2A8;
+	font-size: 250%;
+}
+
+.text_input{
+	background-color: #A4C2A8;
+	font-size: 300%;
+}
+
+}
+
+#result{
+    float: left;
+    height: 50%;
+    font-size: 400%;
+    color: #87FF65;
+    background-color: #628757;
+    border: 2px solid #A4C2A8;
+    text-align: center; 
+    vertical-align: center;
+    white-space: nowrap;
+    line-height: 150%;
+    overflow: hidden;
+}
+
+form p{
+  font-size: 250%;
+  color: #A4C2A8; 
+}
+
